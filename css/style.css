@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: var(--fondo)
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+header {
+	padding: 30px 0;
+
+}
+
+header .contenedor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.contenedor img{
+	background: url(../img/logo.svg);
+	background-position: right;
+	background-size: 1.2em;
+	width: 20em;
+	
+}
+header nav a {
+	color: #151515;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 1.2em;
+
+}
+.laguna img{
+	font-size: 16px;
+	min-height: 30.62em;
+	
+
+}
+
+
+.sub-titulo{
+	font-size: 1.2em;
+ 	font-weight: 300;
+ 	text-align: center;
+ 	padding: 25px;
+	
+}
+
+.sub-titulo1{
+	font-size: 2em;
+ 	font-weight: 300;
+ 	text-align: center;
+ 	padding: 25px;
+
+}
+.sub-titulo2{
+	font-size: 1.2em;
+ 	font-weight: 300;
+ 	text-align: center;
+ 	
+}
+.sub-titulo3{
+	font-size: 1.8em;
+ 	font-weight: 300;
+ 	text-align: center;
+	padding: 10px;
+	margin: 25px;
+ 	
+}
+.sub-titulo4{
+	display: flex;
+	font-size: 1.2em;
+ 	font-weight: 300;
+ 	text-align: center;
+	padding: 25px;
+	margin: 25px;
+	
+ 	
+}
+.footer .info{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-weight: 300;
+	padding: 30px;
+}
+
+.footer .redes{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+
+
+
+
+
+/*imagen campo pagina principal*/
+
+.campo {
+	font-size: 16px;
+	min-height: 30.62em;
+	background:  url(../img/campo.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+/*fotos de casas*/
+
+.section{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+
+}
+.box{
+	width: 33%;
+	height: 50vh;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	margin: 1.5%;
+	border-radius: 10px;
+	cursor: pointer;
+	
+}
+.box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.box .hover{
+	width: 0%;
+	height: 50vh;
+	background-color: rgba(56, 53, 53, 0.568);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: .4s all;
+
+}
+
+.hover h6{
+	color: aliceblue;
+	text-shadow: 1px 1px 1px black;
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+.box:hover .hover{
+	width: 100%;
+}
+
+
+
+/*imagenes de espacios verdes*/
+
+.terrenos{
+	background-color:;
+	width: cover;
+	height: 650px;
+	margin:30px auto;
+	margin-top: 2rem;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 10px;
+	grid-template-areas:
+	"verde1 verde2 verde2 verde3"
+	"verde1 verde4 verde4 verde4"
+	"verde5 verde6 verde7 verde7"
+	"verde8 verde6 verde9 verde9"
+	; 
+
+}
+
+
+
+.verde{
+	background-color: gray;
+
+}
+
+.verde-1{
+	grid-area: verde1;
+	background-image: url(../img/verde1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-2{
+	grid-area: verde2;
+	background-image: url(../img/verde2.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.verde-3{
+	grid-area: verde3;
+	background-image: url(../img/verde10.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-4{
+	grid-area: verde4;
+	background-image: url(../img/verde4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-5{
+	grid-area: verde5;
+	background-image: url(../img/verde5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-6{
+	grid-area: verde6;
+	background-image: url(../img/verde6.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-7{
+	grid-area: verde7;
+	background-image: url(../img/verde7.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-8{
+	grid-area: verde8;
+	background-image: url(../img/verde8.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.verde-9{
+	grid-area: verde9;
+	background-image: url(../img/verde9.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+@media(max-width: 650px){
+	body{
+		background-color: #E1F5A9;
+	}
+
+	.terrenos{
+		width: auto;
+		background-color: #E1F5A9;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: 2fr 2fr 1fr 1fr 2fr 1fr 1fr;
+		grid-template-areas: 
+		"verde1 verde2"
+		"verde1 verde4"
+		"verde1 verde3"
+		"verde5 verde3"
+		"verde7 verde3"
+		"verde7 verde8"
+}
+
+/*imagen departamento frente a la laguna*/
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+header .logo {
+	margin-bottom: 5px;
+	font-size: 10;
+}
+	header .contenedor{
+		flex-direction: column;
+		text-align: center;
+	}
+}
+.campo {
+	font-size: 12px;
+}
+
+.campo .descripcion{
+	font-size: 100%;
+}
+.sub-titulo{
+	flex-direction: column;
+	text-align: center;
+	font-weight: 400;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 30px;
+}
+
+@media screen and (max-width: 800px){
+	.contacto{
+	flex-direction: column;
+	text-align: center;
+	}
+}
+@media screen and (max-width: 800px){
+	.main {
+		flex-direction: column;
+		text-align: center;
+		
+	}
+}
+	.sub-titulo3, .sub-titulo4{
+	flex-direction: column;
+	text-align: center;
+
+}
+	.laguna .img{
+	font-size: 12x;
+	
+
+}
+
+
+
+
+
+
