@@ -42,6 +42,8 @@ header nav a {
 .laguna img{
 	font-size: 16px;
 	min-height: 30.62em;
+	background-position: center center;
+	background-size: cover;
 	
 
 }
@@ -286,13 +288,6 @@ header nav a {
 		"verde7 verde8"
 }
 
-/*imagen departamento frente a la laguna*/
-
-
-
-
-
-
 
 @media screen and (max-width: 800px){
 header .logo {
@@ -327,25 +322,12 @@ header .logo {
 	}
 }
 @media screen and (max-width: 800px){
-	.main {
-		flex-direction: column;
-		text-align: center;
-		
+	main .main {
+		margin-bottom: 5px;
+		font-size: 10;
 	}
-}
-	.sub-titulo3, .sub-titulo4{
-	flex-direction: column;
-	text-align: center;
-
-}
-	.laguna .img{
-	font-size: 12x;
 	
-
 }
-
-
-
 
 
 
