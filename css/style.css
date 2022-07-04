@@ -42,12 +42,8 @@ header nav a {
 
 .laguna img {
 	font-size: 16px;
-	min-height: 30.62em;
-	margin: 30px;
-	padding: 10px;
-	
-	
-	
+	width: 100%;
+	display: flex;
 
 }
 
@@ -324,23 +320,35 @@ header .logo {
 	text-align: center;
 	}
 }
-@media screen and (max-width: 800px){
-	.main main{
-		flex-direction: column;
-		text-align: center;
-		
-	}
+
+@media screen and (max-width: 800px) {
+.laguna img {
+	flex: 100%;
+	max-width: 100%;
+	font-size: 12px;
+	
 }
-	.sub-titulo3, .sub-titulo4{
+}
+
+.sub-titulo3{
 	flex-direction: column;
 	text-align: center;
-
+	font-weight: 400;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 30px;
 }
-	.laguna .img{
-	font-size: 12x;
-	
-
+.sub-titulo4{
+	flex-direction: column;
+	text-align: center;
+	font-weight: 400;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 30px;
 }
+
+
+
 
 
 
