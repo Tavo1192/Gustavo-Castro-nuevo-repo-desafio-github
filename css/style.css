@@ -42,11 +42,6 @@ header nav a {
 .laguna img{
 	width: 100%;
 	min-height: 30.62em;
-
-	
-	
-	
-
 }
 
 
@@ -104,10 +99,6 @@ margin: 25px;
 }
 
 
-
-
-
-
 /*imagen campo pagina principal*/
 
 .campo {
@@ -123,7 +114,7 @@ margin: 25px;
 
 /*fotos de casas*/
 
-.section{
+/* .section{ */
 	width: 100%;
 	height: 50vh;
 	display: flex;
@@ -132,7 +123,7 @@ margin: 25px;
 	gap: 5px;
 
 }
-.box{
+/* .box{ */
 	width: 33%;
 	height: 50vh;
 	text-align: center;
@@ -143,13 +134,13 @@ margin: 25px;
 	cursor: pointer;
 	
 }
-.box img{
+/* .box img{ */
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-.box .hover{
+/* .box .hover{ */
 	width: 0%;
 	height: 50vh;
 	background-color: rgba(56, 53, 53, 0.568);
@@ -163,13 +154,13 @@ margin: 25px;
 
 }
 
-.hover h6{
+/* .hover h6{ */
 	color: aliceblue;
 	text-shadow: 1px 1px 1px black;
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
-.box:hover .hover{
+/* .box:hover .hover{ */
 	width: 100%;
 }
 
@@ -177,7 +168,7 @@ margin: 25px;
 
 /*imagenes de espacios verdes*/
 
-.terrenos{
+/* .terrenos{ */
 	
 	width: cover;
 	height: 650px;
@@ -199,19 +190,19 @@ margin: 25px;
 
 
 
-.verde{
+/* .verde{ */
 	background-color: gray;
 
 }
 
-.verde-1{
+/* .verde-1{ */
 	grid-area: verde1;
 	background-image: url(../img/verde1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-2{
+/* .verde-2{ */
 	grid-area: verde2;
 	background-image: url(../img/verde2.jpg);
 	background-size: cover;
@@ -220,49 +211,49 @@ margin: 25px;
 
 }
 
-.verde-3{
+/* .verde-3{ */
 	grid-area: verde3;
 	background-image: url(../img/verde10.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-4{
+/* .verde-4{ */
 	grid-area: verde4;
 	background-image: url(../img/verde4.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-5{
+/* .verde-5{ */
 	grid-area: verde5;
 	background-image: url(../img/verde5.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-6{
+/* .verde-6{ */
 	grid-area: verde6;
 	background-image: url(../img/verde6.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-7{
+/* .verde-7{ */
 	grid-area: verde7;
 	background-image: url(../img/verde7.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-8{
+/* .verde-8{ */
 	grid-area: verde8;
 	background-image: url(../img/verde8.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-.verde-9{
+/* .verde-9{ */
 	grid-area: verde9;
 	background-image: url(../img/verde9.jpg);
 	background-size: cover;
@@ -274,7 +265,7 @@ margin: 25px;
 		background-color: #E1F5A9;
 	}
 
-	.terrenos{
+	/* .terrenos{ */
 		width: auto;
 		background-color: #E1F5A9;
 		grid-template-columns: 1fr 2fr;
@@ -352,7 +343,16 @@ header .logo {
 }
 
 /* aca coloco bootrap css*/
+.row img{
+	width: 100%;
+	height: 100%;
 
+}
+@media screen and (max-width: 800px) {
+	.row img {
+		object-fit: fill;
+	
+}
 
 
 
