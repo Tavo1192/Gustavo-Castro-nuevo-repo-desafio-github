@@ -7,7 +7,7 @@
 }
 body {
 	background: var(--fondo)
-	font-family: 'Roboto', sans-serif;
+	
 }
 
 .contenedor {
@@ -50,44 +50,43 @@ header nav a {
 
 
 .sub-titulo{
-	font-size: 1.2em;
- 	font-weight: 300;
- 	text-align: center;
- 	padding: 25px;
+font-size: 1.2em;
+font-weight: 300;
+text-align: center;
+padding: 25px;
 	
 }
 
 .sub-titulo1{
 	font-size: 2em;
- 	font-weight: 300;
- 	text-align: center;
- 	padding: 25px;
+font-weight: 300;
+text-align: center;
+padding: 25px;
 
 }
 .sub-titulo2{
-	font-size: 1.2em;
- 	font-weight: 300;
- 	text-align: center;
- 	
+font-size: 1.2em;
+font-weight: 300;
+text-align: center;
 }
+
 .sub-titulo3{
-	font-size: 1.8em;
- 	font-weight: 300;
- 	text-align: center;
-	padding: 10px;
-	margin: 25px;
- 	
+font-size: 1.8em;
+font-weight: 300;
+text-align: center;
+padding: 10px;
+margin: 25px;
 }
+
 .sub-titulo4{
-	display: flex;
-	font-size: 1.2em;
- 	font-weight: 300;
- 	text-align: center;
-	padding: 25px;
-	margin: 25px;
-	
- 	
+display: flex;
+font-size: 1.2em;
+font-weight: 300;
+text-align: center;
+padding: 25px;
+margin: 25px;
 }
+
 .footer .info{
 	display: flex;
 	flex-direction: column;
@@ -178,7 +177,7 @@ header nav a {
 /*imagenes de espacios verdes*/
 
 .terrenos{
-	background-color:;
+	
 	width: cover;
 	height: 650px;
 	margin:30px auto;
@@ -328,6 +327,29 @@ header .logo {
 	}
 	
 }
+}
+
+.sub-titulo3{
+	flex-direction: column;
+	text-align: center;
+	font-weight: 400;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 30px;
+}
+.sub-titulo4{
+	flex-direction: column;
+	text-align: center;
+	font-weight: 400;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 30px;
+}
+
+/* aca coloco bootrap css*/
+
+
+
 
 
 
