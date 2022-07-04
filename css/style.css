@@ -40,10 +40,11 @@ header nav a {
 
 }
 .laguna img{
-	font-size: 16px;
+	width: 100%;
 	min-height: 30.62em;
-	background-position: center center;
-	background-size: cover;
+
+	
+	
 	
 
 }
@@ -58,7 +59,7 @@ padding: 25px;
 }
 
 .sub-titulo1{
-	font-size: 2em;
+font-size: 2em;
 font-weight: 300;
 text-align: center;
 padding: 25px;
@@ -324,8 +325,12 @@ header .logo {
 	main .main {
 		margin-bottom: 5px;
 		font-size: 10;
+		
 	}
 	
+}
+@media screen and (max-width: 800px){
+	.img {object-fit: fill;
 }
 }
 
