@@ -342,18 +342,26 @@ header .logo {
 	padding: 30px;
 }
 
-/* aca coloco bootrap css*/
+/* aca coloco css a BS*/
 .row img{
 	width: 100%;
 	height: 100%;
-
 }
-@media screen and (max-width: 800px) {
-	.row img {
-		object-fit: fill;
+
+
+.contacto {
+	overflow: hidden;
+}
+
+#carouselExampleControls {
+	flex-direction: column;
+	text-align: center;
+	margin-right: 60px;
+	margin-left: 60px;
+	padding: 30px;
+	
 	
 }
-
 
 
 
