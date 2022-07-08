@@ -125,7 +125,7 @@ margin: 25px;
 	gap: 5px;
 
 }
-/* .box{ */
+/* .box{
 	width: 33%;
 	height: 50vh;
 	text-align: center;
@@ -135,15 +135,15 @@ margin: 25px;
 	border-radius: 10px;
 	cursor: pointer;
 	
-}
-/* .box img{ */
+} */
+/* .box img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}
+} */
 
 /* .box .hover{ */
-	width: 0%;
+	/* width: 0%;
 	height: 50vh;
 	background-color: rgba(56, 53, 53, 0.568);
 	position: absolute;
@@ -154,17 +154,17 @@ margin: 25px;
 	overflow: hidden;
 	transition: .4s all;
 
-}
+} */
 
-/* .hover h6{ */
+/* .hover h6{
 	color: aliceblue;
 	text-shadow: 1px 1px 1px black;
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
 /* .box:hover .hover{ */
-	width: 100%;
-}
+	/* width: 100%;
+} */ */
 
 
 
@@ -192,7 +192,7 @@ margin: 25px;
 
 
 
-/* .verde{ */
+/* .verde{
 	background-color: gray;
 
 }
@@ -253,21 +253,21 @@ margin: 25px;
 	background-image: url(../img/verde8.jpg);
 	background-size: cover;
 	background-position: center;
-}
+} */
 
-/* .verde-9{ */
+/* .verde-9{
 	grid-area: verde9;
 	background-image: url(../img/verde9.jpg);
 	background-size: cover;
 	background-position: center;
-}
+} */
 
-@media(max-width: 650px){
-	body{
+/* @media screen and (max-width: 650px) {
+				body{
 		background-color: #E1F5A9;
-	}
+	} */
 }
-	/* .terrenos{ */
+	/* .terrenos{
 		width: auto;
 		background-color: #E1F5A9;
 		grid-template-columns: 1fr 2fr;
@@ -279,13 +279,13 @@ margin: 25px;
 		"verde5 verde3"
 		"verde7 verde3"
 		"verde7 verde8"
-}
+} */
 
 
-@media screen and (max-width: 650px){ 
+@media screen and (max-width: 650px) { 
 header .logo {
 	margin-bottom: 5px;
-	font-size: 10;
+	font-size: 10px;
 }
 	header .contenedor{
 		flex-direction: column;
@@ -319,11 +319,9 @@ header .logo {
 		margin-bottom: 5px;
 		font-size: 10;
 		
-	}
+		}
 	
 }
-
-
 
 .sub-titulo3{
 	flex-direction: column;
@@ -343,35 +341,52 @@ header .logo {
 }
 
 /* aca coloco css a BS*/
+
+
+
 #carouselExampleControls{
 	margin: 0 auto;
 	padding: 5%;
-	}
-
-
-.row img {
 	
-	width: 100%;
-	height: 100%;
-}
-@media screen and (max-width: 800px){
-	.row img{
-		margin-bottom: 60px;
-		font-size: 20;
-	} 
-}
+	
 
+	
+
+	
+}	
 
 .contacto {
 	overflow: hidden;
 }
 
-{ 
-		margin: 10px;
-		
-		
-}
+
+
+.row img {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
 	
+	}
+	
+
+
+
+
+	
+		
+
+
+
+		
+
+
+	
+
+
+
+
+
+
 
 
 
