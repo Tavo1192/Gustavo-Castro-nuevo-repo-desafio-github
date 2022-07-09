@@ -308,20 +308,6 @@ header .logo {
 	padding: 30px;
 }
 
-@media screen and (max-width: 800px) {
-	.contacto{
-	flex-direction: column;
-	text-align: center;
-	}
-}
-@media screen and (max-width: 800px) {
-	main .main {
-		margin-bottom: 5px;
-		font-size: 10;
-		
-		}
-	
-}
 
 .sub-titulo3{
 	flex-direction: column;
@@ -340,6 +326,44 @@ header .logo {
 	padding: 30px;
 }
 
+@media screen and (max-width: 800px) {
+	.contacto{
+	flex-direction: column;
+	text-align: center;
+	font-size: 15px;
+	}
+}
+@media screen and (max-width: 800px) {
+	main .main {
+		margin-bottom: 5px;
+		font-size: 10;
+		
+		}
+	
+}
+@media screen and (max-width: 800px) {
+	.footer .info {
+		flex-direction: column;
+		text-align: center;
+		font-size: 20px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+	.contenedor {
+		flex-direction: column;
+		text-align: center;
+		
+			
+	}
+}
+
+
+
+
+
 /* aca coloco css a BS*/
 
 
@@ -348,10 +372,6 @@ header .logo {
 	margin: 0 auto;
 	padding: 5%;
 	
-	
-
-	
-
 	
 }	
 
@@ -367,6 +387,7 @@ header .logo {
 	height: 100%;
 	
 	}
+
 	
 
 
