@@ -117,12 +117,12 @@ margin: 25px;
 /*fotos de casas*/
 
 /* .section{ */
-	width: 100%;
+	/* width: 100%;
 	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 5px;
+	gap: 5px; */
 
 }
 /* .box{
@@ -172,7 +172,7 @@ margin: 25px;
 
 /* .terrenos{ */
 	
-	width: cover;
+	/* width: cover;
 	height: 650px;
 	margin:30px auto;
 	margin-top: 2rem;
@@ -186,7 +186,7 @@ margin: 25px;
 	"verde1 verde4 verde4 verde4"
 	"verde5 verde6 verde7 verde7"
 	"verde8 verde6 verde9 verde9"
-	; 
+	;  */
 
 }
 
@@ -198,61 +198,61 @@ margin: 25px;
 }
 
 /* .verde-1{ */
-	grid-area: verde1;
+	/* grid-area: verde1;
 	background-image: url(../img/verde1.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 /* .verde-2{ */
-	grid-area: verde2;
+	/* grid-area: verde2;
 	background-image: url(../img/verde2.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 
 
 }
 
 /* .verde-3{ */
-	grid-area: verde3;
+	/* grid-area: verde3;
 	background-image: url(../img/verde10.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 /* .verde-4{ */
-	grid-area: verde4;
+	/* grid-area: verde4;
 	background-image: url(../img/verde4.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 /* .verde-5{ */
-	grid-area: verde5;
+	/* grid-area: verde5;
 	background-image: url(../img/verde5.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 /* .verde-6{ */
-	grid-area: verde6;
+	/* grid-area: verde6;
 	background-image: url(../img/verde6.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 /* .verde-7{ */
-	grid-area: verde7;
+	/* grid-area: verde7;
 	background-image: url(../img/verde7.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 /* .verde-8{ */
-	grid-area: verde8;
+	/* grid-area: verde8;
 	background-image: url(../img/verde8.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 } */
 
 /* .verde-9{
@@ -361,16 +361,11 @@ header .logo {
 }
 
 
-
-
-
-/* aca coloco css a BS*/
-
-
-
 #carouselExampleControls{
-	margin: 0 auto;
-	padding: 5%;
+	width: 90%;
+	height: 90%;
+	margin-left: 25px;
+	margin-right: 25px;
 	
 	
 }	
@@ -379,26 +374,86 @@ header .logo {
 	overflow: hidden;
 }
 
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 
-
-.row img {
-	border-radius: 50%;
+}
+.card {
+	
+	position: relative;
+	width: 300px;
+	height: 350px;
+	margin: 15px;
+}
+.card .face{
+	position: absolute;
 	width: 100%;
 	height: 100%;
-	
-	}
+	backface-visibility: hidden;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: .5s;
 
-	
+}
+.card .front {
+	transform: perspective(600px) rotateY(0deg);
+	box-shadow: 0 5px 10px #151515;
+}
+.card .front img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card .front h3 {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	background: rgba (0, 0, 0, .4);
+}
+.card .back {
+	transform: perspective(600px) rotateY(180deg);
+	background: rgb(3, 35, 54);
+	padding: 15px;
+	color: #f3f3f3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	box-shadow: 0, 5px, 10px #151515;
+}
+.card .back .link {
+	border-top: solid 1px #f3f3f3;
+	height: 50px;
+	line-height: 50px;
+}
+.card .back .link a {
+	color: #f3f3f3;
+}
+
+.card .back h3 {
+	font-size: 30px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+.card .back p {
+	letter-spacing: 1px;
+}
+
+.card:hover .front {
+	transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+	transform: perspective(600px) rotateY(360deg);
+}
 
 
-
-
-	
-		
-
-
-
-		
 
 
 	
